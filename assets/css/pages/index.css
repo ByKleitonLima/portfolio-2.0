@@ -1,0 +1,12 @@
+@import url('Header/Partials/header.css');
+@import url('Banner/Partials/banner.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inria Sans"
+}
+
+body {
+    background-color: #323232;
+}

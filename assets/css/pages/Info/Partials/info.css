@@ -1,0 +1,53 @@
+.info {
+    display: flex;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.designer, .dev {
+    width: 512px;
+    height: 300px;
+    padding: 20px;
+    position: absolute;
+}
+
+.designer {
+    top: 0;
+    left: 0;
+}
+
+.dev {
+    bottom: 0;
+    right: 0;
+}
+
+.designer-title,
+.dev-title {
+    display: flex;
+    align-items: center;
+}
+
+.designer-title p,
+.dev-title p {
+    font-size: 64px;
+    font-weight: bold;
+    color: #aaa;
+    margin-right: 30px;
+    margin-bottom: 15px;
+}
+
+.designer-text p,
+.dev-text p {
+    font-size: 20px;
+    color: #aaa;
+    margin-bottom: 15px;
+}
+
+.my-designer img,
+.my-techs img {
+    margin-right: 30px;
+}

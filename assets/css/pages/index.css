@@ -1,5 +1,6 @@
 @import url('Header/Partials/header.css');
 @import url('Banner/Partials/banner.css');
+@import url('Info/Partials/info.css');
 
 * {
     margin: 0;
